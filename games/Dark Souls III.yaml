@@ -11,8 +11,8 @@ Dark Souls III:
   death_link: 'off'
   death_link_amnesty: 1
   enable_dlc:
-    'false': 4
-    'true': 1
+    'false': 66
+    'true': 34
   enable_ngp: 
     'false': 1
     'true': 1

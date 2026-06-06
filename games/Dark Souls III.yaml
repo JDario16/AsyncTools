@@ -56,10 +56,14 @@ Dark Souls III:
   all_chests_are_mimics: 'false'
   impatient_mimics: 'false'
   local_items:
-    ["Cinders of a Lord - Abyss Watcher", "Cinders of a Lord - Yhorm the Giant", "Cinders of a Lord - Aldrich", "Cinders of a Lord - Lothric Prince", "Transposing Kiln", "Pyromancy Flame"]
+    ["Cinders of a Lord - Abyss Watcher", "Cinders of a Lord - Yhorm the Giant", "Cinders of a Lord - Aldrich", "Cinders of a Lord - Lothric Prince"]
   non_local_items:
     # Can be unobtainable in certain local locations
     ['Path of the Dragon']
+  start_inventory:
+    Pyromancy Flame: 1
+    Sage's Scroll: 1
+    Transposing Kiln: 1
   exclude_locations:
     ['Small Souls', 'Miscellaneous', 'Hidden', 'Small Crystal Lizards', 'Upgrade', "AL: Aldrich's Ruby - dark cathedral, miniboss"]
   excluded_location_behavior: forbid_useful

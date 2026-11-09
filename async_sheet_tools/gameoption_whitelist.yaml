@@ -75,6 +75,23 @@ A Short Hike:
     - Buckets
     - Golden Feather Progression
     - Coins per Filler Item
+A Space Archipelago:
+    - A Short Hike
+    - Locations
+    - Name
+    - Goal
+    - Start Planet
+    - Soft Logic
+    - Early Construction Slots
+    - Early Colony Ship
+    - Double Important Items
+    - Minimum General Science Pack Cost
+    - Maximum General Science Pack Cost
+    - Minimum Specialized Science Pack Cost
+    - Maximum Specialized Science Pack Cost
+    - Research Tree Layout
+    - Research With General Science
+    - Technology Cost Bias
 Adventure:
     - Adventure
     - Locations
@@ -115,20 +132,26 @@ Banjo-Tooie:
     - Banjo-Tooie
     - Locations
     - Name
+    - Logic Type
     - Victory Condition
     - Open HAG 1
     - Minigame Hunt Length
     - Boss Hunt Length
     - Jinjo Family Rescue Length
+    - "Token Hunt: Mumbo Tokens in Pool"
     - Token Hunt Length
     - World Requirements
-    - Randomize Banjo-Tooie Movelist
+    - Skip Puzzles
     - Randomize Banjo-Kazooie Movelist
+    - Randomize Banjo-Tooie Movelist
+    - Jamjars' Silo Costs
     - Egg Behaviour
     - Progressive Beak Buster
+    - Progressive Shoes
     - Progressive Water Training
     - Progressive Flight
     - Progressive Egg Aim
+    - Progressive Bash Attack
     - Randomize Treble Clefs
     - Additional Treble Clefs
     - Number of Bass Clefs
@@ -140,6 +163,8 @@ Banjo-Tooie:
     - Randomize Honey B Rewards
     - Randomize Big Top Tickets
     - Randomize Green Relics
+    - Targitzan Slightly Sacred Chamber Green Relic Requirement
+    - Targitzan Boss Green Relic Requirement
     - Randomize Beans
     - Randomize Mumbo and Humba Magic
     - Randomize Stop n Swap
@@ -151,19 +176,19 @@ Banjo-Tooie:
     - Randomize Warp Pads
     - Randomize Silos
     - Open Silos
-    - Skip Puzzles
     - Randomize World Order
     - Randomize World Entrances
+    - Randomize Bosses
     - Open Backdoors
     - Open GI Frontdoor
     - Signpost Hints
     - Signpost Move Hints
     - Add Signpost Hints to Archipelago Hints
-    - Extra Cheats
     - Speed Up Minigames
     - Tower of Tragedy Quiz
     - Skip Klungo
     - Automatic Cheat Activation
+    - Extra Cheats
     - King Jingaling Jiggy
     - Replace Extra Jiggies
     - Replace Extra Notes with filler
@@ -180,6 +205,7 @@ Banjo-Tooie:
     - Squish Trap Weight
     - Tip Trap Weight
     - Max Traps
+    - Dialog Character
 Blasphemous:
     - Blasphemous
     - Locations
@@ -245,7 +271,9 @@ Candy Box 2:
     - Candy Box 2
     - locations
     - Name
+    - Goal Conditions
     - Entrance Randomisation
+    - Randomise Tower Entrance
     - Randomise X Potion
     - Starting Weapon
     - Progressive Jump
@@ -331,6 +359,7 @@ ChecksFinder:
     - ChecksFinder
     - Locations
     - Name
+    - Start Inventory
 Choo-Choo Charles:
     - Choo-Choo Charles
     - Locations
@@ -349,6 +378,7 @@ CrossCode:
     - locations
     - Name
     - Goal
+    - Enable DLC
     - Closed Gaia
     - Quest Randomization
     - Shop Randomization
@@ -358,6 +388,7 @@ CrossCode:
     - Progressive Area Unlocks
     - Progressive Equipment
     - Keyrings
+    - Botanics Randomization
     - Small Key Shuffle
     - Master Key Shuffle
     - Chest Lock Randomization
@@ -376,8 +407,11 @@ Dark Cloud 1:
     - locations
     - Name
     - Boss Goal
+    - Required Memory Count
     - Open Dungeon
     - Chest Sanity
+    - Shop Sanity
+    - Floor Sanity
     - ABS Multiplier
     - Attachment Multiplier
     - Auto Build Buildings
@@ -688,6 +722,9 @@ Final Fantasy Tactics Ivalice Island:
     - Sidequest Battles
     - Rare Battles
     - Chemist Placement
+    - Poach Locations
+    - Move-Find Item Locations
+    - Move-Find Item Location Logic
 Frogmonster:
     - Frogmonster
     - Locations
@@ -698,6 +735,33 @@ Frogmonster:
     - Shuffle Bug-Eating Effects
     - Shuffle Workshop Key
     - Open City
+Funi Raccoon Game:
+    - Funi Raccoon Game
+    - Locations
+    - Name
+    - Goal
+    - Eurosanity
+    - Gemsanity
+    - Catsanity
+    - Hatsanity
+    - Dumpster Weight Blocking
+"Garfield Kart - Furious Racing":
+    - "Garfield Kart - Furious Racing"
+    - Locations
+    - Name
+    - Goal
+    - CC Requirement
+    - Randomize Races
+    - Progressive Cups
+    - Randomize Puzzle Pieces
+    - Puzzle Piece Count
+    - Randomize Characters
+    - Randomize Karts
+    - Randomize Hats
+    - Randomize Spoilers
+    - Stat Randomizer
+    - Randomize Items
+    - Lap Sanity
 Gauntlet Legends:
     - Gauntlet Legends
     - Locations
@@ -727,6 +791,38 @@ Golden Sun The Lost Age:
     - Start with Ship Wings
     - Second Starting Character
     - Enable Hard Mode
+Here Comes Niko!:
+    - Here Comes Niko!
+    - Locations
+    - Name
+    - Enable Achievements
+    - Shuffle Handsome Frog
+    - Shuffle Gary's Garden
+    - Gary's Garden Access
+    - Level Specific Keys
+    - Cassette Logic
+    - Extra Cassettes in Item Pool
+    - Progressive Contact List
+    - Snail Shop
+    - Speed Boost in Item Pool
+    - Completion Goal
+    - Safety Helmet
+    - Bug net
+    - Soda Cans
+    - Parasols
+    - Swimming
+    - Textbox
+    - Air Conditioners
+    - Apple Basket
+    - Fishsanity
+    - Seedsanity
+    - Flowersanity
+    - Bonesanity
+    - Applesanity
+    - Bugsanity
+    - Chatsanity
+    - Thoughtsanity
+    - Trap Chance
 Heretic:
     - Heretic
     - Locations
@@ -1011,6 +1107,24 @@ Luigi's Mansion:
     - Spookiness
     - EnergyLink
     - Trap Percentage
+Manic Miners:
+    - Victory Condition
+    - Target Level Count
+    - Available Levels
+    - Locked Coordinates
+    - Coordinates Required
+    - Target Times Are Locations
+    - Target Time Difficulty
+    - Crystal Targets Are Locations
+    - Buildings Are Items
+    - Items Are Items
+    - Vehicles Are Items
+    - Progressive Items
+    - Miner Cap
+    - Campaign Selection LRR
+    - Campaign Selection LRRR
+    - Campaign Selection LRRC
+    - Campaign Selection BAZ
 Mario & Luigi Superstar Saga:
     - Mario & Luigi Superstar Saga
     - Locations
@@ -1041,10 +1155,10 @@ Mario Kart Double Dash:
     - Locations
     - Name
     - Goal
-    - Trophy Requirement
+    - Trophy Requirement Percent
     - Grand Prix Trophies
     - Shuffle Extra Trophies
-    - Logic Difficulty.
+    - Logic Difficulty
     - Time Trials
     - All Cup Tour Length
     - Mirror is 200cc
@@ -1157,11 +1271,14 @@ Nine Sols:
     - Nine Sols
     - Locations
     - Name
-    - Seals For Eigong
+    - Logic Difficulty
     - Shuffle Sol Seals
+    - Seals For Eigong
+    - randomize_shops
     - Skip Soulscape Platforming
     - Jade Cost Maximum
     - First Root Node
+    - shuffle_some_root_nodes
     - Shuffle Wall Climb
 Noita:
     - Noita
@@ -1223,6 +1340,31 @@ Ori and the Blind Forest:
     - Extra Mapstones
     - Extra Skills
     - Logic Modifiers
+Ori and the Will of the Wisps:
+    - Ori and the Will of the Wisps
+    - Locations
+    - Name
+    - Goal
+    - Logic difficulty
+    - Glitches
+    - Starting location
+    - Randomize Doors
+    - Launch Fragments
+    - Relic Count
+    - Quests
+    - Glades Done
+    - No Combat
+    - No Trials
+    - No Willow hearts
+    - No Rain
+    - Better Wellspring
+    - Spawn with Sword
+    - Spawn with Regenerate
+    - Extra teleporters
+    - Bonus items
+    - Extra bonus items
+    - Skill upgrades
+    - Free Teleporters
 Outer Wilds:
     - Outer Wilds
     - Locations
@@ -1254,20 +1396,128 @@ Paint:
     - Quarter Percent Checks
     - Canvas Size Increment
     - Trap Fill Percent
+"Paper Mario: The Thousand-Year Door":
+    - "Paper Mario: The Thousand-Year Door"
+    - Locations
+    - Name
+    - Goal
+    - Goal Crystal Stars
+    - Palace Crystal Stars
+    - Star Shuffle
+    - Tattlesanity
+    - Star Piecesanity
+    - Shopsanity
+    - Shop Purchase Limit
+    - Shinesanity
+    - Keysanity
+    - Dazzle Rewards
+    - Pit Items
+    - Limit Chapter Logic
+    - Blue Pipe Warp
+    - Palace Skip
+    - Skip Cutscenes
+    - Disable Intermissions
+    - Fast Travel
+    - Always Succeed Conditions
+    - Open West Side
+    - Grubba Bribe Cost
+    - Enemy Randomizer
+    - Enemy Stat Scaling
+    - Permanent Peekaboo
+    - Full Run Bar
+    - 0 BP First Attack
+    - Badge BP Cost
+    - Badge FP Cost
+    - Partner FP Cost
+    - Music Settings
+    - Block Visibility
+    - Experience Multiplier
+    - Starting HP
+    - Starting FP
+    - Starting BP
+    - Starting Coins
+    - Starting Partner
+    - Yoshi Color
 Peggle Deluxe:
     - Peggle Deluxe
     - Locations
     - Name
     - Goal
+    - Master Count
+    - Level Count
     - Include Full Clears
+    - Maximum Starting Ball Count
     - Useful Item Percentage
 Peggle Nights:
     - Peggle Nights
     - Locations
     - Name
     - Goal
+    - Master Count
+    - Level Count
     - Include Full Clears
+    - Maximum Starting Ball Count
     - Useful Item Percentage
+Pizza Tower:
+    - Pizza Tower
+    - Locations
+    - Name 
+    - Character
+    - Toppin Count
+    - Floor 1 Boss Toppins
+    - Floor 2 Boss Toppins
+    - Floor 3 Boss Toppins
+    - Floor 4 Boss Toppins
+    - Floor 5 Boss Toppins
+    - Treasures Award Checks
+    - Secrets Award Checks
+    - S Ranks Award Checks
+    - P Ranks Award Checks
+    - Chef Tasks Award Checks
+    - Shuffle Boss Keys
+    - Shuffle Level Gates
+    - Shuffle Boss Gates
+    - Shuffle Secrets
+    - Open World
+    - Bonus Ladders
+    - Randomize Moves
+    - Randomize Transformations
+    - Shuffle Lap 2 Portals
+    - Pumpkin Checks
+    - Pumpkin Count
+    - Tricky Treat Door Pumpkins
+    - Randomize Music
+    - Snotty's Home Floor
+    - Randomize Enemies
+PokePark:
+    - PokePark
+    - Locations
+    - Name
+    - Goal
+    - Skygarden Prisma Requirement
+    - Harder Power Competition AI
+    - Separate Pokemon Locations by Zone
+    - Starting Fast Travel Items
+    - Starting Power Item Preset
+    - In-Zone Roadblock Items
+    - Remove Attraction Record Locations
+    - Randomize Attraction Entrances
+    - Unlock Fast Travel at Taxi Stops
+    - Randomize Fast Travel Routes
+    - Randomize Treehouse Gates
+    - Randomize General Entrances
+    - Mix Entrance Randomization Pools
+    - Required Battle Win Streak
+    - Remove Battle Power Competition Locations
+    - Remove Chase Power Competition Locations
+    - Remove Quiz Power Competition Locations
+    - Remove Hide-and-Seek Power Competition Locations
+    - Remove Errand Locations
+    - Remove Miscellaneous Friendship Locations
+    - Remove Legendary Pokemon Locations
+    - Remove Power Training Locations
+    - Remove Attraction Prisma Locations
+    - Remove Pokemon Unlock Locations
 Pokemon Black and White:
     - Pokemon Black and White
     - Locations
@@ -1282,13 +1532,16 @@ Pokemon Black and White:
     - Season Control
     - Modify Encounter Rates
     - All Pokemon Seen
+    - Master Ball Seller
     - Modify Item Pool
     - Modify Logic
+    - Start Inventory
 Pokemon Crystal:
     - Pokemon Crystal
     - Locations
     - Name
     - Goal
+    - Johto Only
     - Elite Four Requirement
     - Elite Four Count
     - Red Requirement
@@ -1328,6 +1581,7 @@ Pokemon Crystal:
     - Kanto Trainersanity
     - Randomize Wilds
     - Dexsanity
+    - Shopsanity
     - Randomize Berry Trees
     - Randomize Pokedex
     - Randomize Pokemon Requests
@@ -1345,9 +1599,11 @@ Pokemon Crystal:
     - Randomize TM Moves
     - TM Compatibility
     - HM Compatibility
+    - Randomize Base Stats
     - Randomize Types
     - Randomize Palettes
     - Randomize Music
+    - Early Fly
     - Require Flash
     - HM Badge Requirements
     - Remove Ilex Forest Cut Tree
@@ -1360,6 +1616,87 @@ Pokemon Crystal:
     - Grasssanity
     - Trainer Palette
     - Progressive Rods
+    - Local Items
+Pokemon FireRed and LeafGreen:
+    - Pokemon FireRed and LeafGreen
+    - Locations
+    - Name
+    - Game Version
+    - Goal
+    - Kanto Only
+    - Random Starting Town
+    - Shuffle Dungeon Entrances
+    - Shuffle Hidden Items
+    - Extra Key Items
+    - Shopsanity
+    - Vending Machines
+    - Prizesanity
+    - Shop Prices
+    - Kanto Trainersanity
+    - Sevii Trainersanity
+    - Dexsanity
+    - Famesanity
+    - Shuffle Pokedex
+    - Shuffle TM Case
+    - Shuffle Jumping Shoes
+    - Silph Co. Card Key
+    - Sevii Island Passes
+    - Fishing Rods
+    - Split Teas
+    - Gym Keys
+    - Itemfinder Required
+    - Flash Required
+    - Acrobatic Bicycle
+    - Oak's Aide Route 2
+    - Oak's Aide Route 10
+    - Oak's Aide Route 11
+    - Oak's Aide Route 16
+    - Oak's Aide Route 15
+    - Pokemon Lab Fossil Count
+    - Viridian City Roadblock
+    - Pewter City Roadblock
+    - Digletts Cave Roadblock
+    - Block Underground Paths
+    - Route 9 Roadblock
+    - Route 10 Waterfall
+    - Route 12 Boulders
+    - Route 12 Rocks
+    - Route 16 Rock
+    - Victory Road Rocks
+    - Early Gossipers
+    - Additional Dark Caves
+    - Viridian Gym Requirement
+    - Viridian Gym Count
+    - Route 22 Gate Requirement
+    - Route 22 Gate Count
+    - Route 23 Guard Requirement
+    - Route 23 Guard Count
+    - Elite Four Requirement
+    - Elite Four Count
+    - Elite Four Rematch Requirement
+    - Elite Four Rematch Count
+    - Cerulean Cave Requirement
+    - Cerulean Cave Count
+    - HM Compatibility
+    - Randomize Wild Pokemon
+    - Wild Pokemon Groups
+    - Randomize Starters
+    - Randomize Trainer Parties
+    - Randomize Legendary Pokemon
+    - Randomize Misc Pokemon
+    - Randomize Types
+    - Randomize Abilities
+    - Randomize Base Stats
+    - Randomize Moves
+    - Move Match Type Bias
+    - Move Normal Type Bias
+    - Physical/Special Split
+    - Randomize Move Types
+    - Randomize TM/Tutor Moves
+    - TM/Tutor Compatibility
+    - Randomize Music
+    - Randomize Fanfares
+    - Local Items
 Pokemon Emerald:
     - Pokemon Emerald
     - Locations
@@ -1643,7 +1980,6 @@ Slay the Spire:
     - Map Teleport Shuffle
     - Map Transition Shuffle
     - Carryless Exit Count
-    - Swap Level Exits
     - Swap Exit Count
     - Swap Donut GH Exits
     - Trap Fill Percentage
@@ -1820,6 +2156,7 @@ Stardew Valley:
     - Bundle Per Room
     - Bundle Price
     - Entrance Randomization
+    - Start Without
     - Season Randomization
     - Cropsanity
     - Backpack Size
@@ -1834,9 +2171,12 @@ Stardew Valley:
     - Museumsanity
     - Monstersanity
     - Shipsanity
+    - Eatsanity
     - Cooksanity
     - Chefsanity
     - Craftsanity
+    - Secretsanity
+    - Hatsanity
     - Friendsanity
     - Friendsanity Heart Size
     - Moviesanity
@@ -1878,6 +2218,7 @@ Super Mario 64:
     - MIPS 2 Star %
     - Endless Stairs Star %
     - Completion Goal
+    - Local Items
 Super Mario Land 2:
     - Super Mario Land 2
     - Locations
@@ -1928,30 +2269,10 @@ Super Mario World:
     - Level Palette Shuffle
     - Overworld Palette Shuffle
     - Starting Life Count
-Super Metroid:
-    - Super Metroid
-    - Locations
-    - Name
-    - Preset
-    - Maximum Difficulty
-    - Start Location
-    - Missile Quantity
-    - Super Quantity
-    - Power Bomb Quantity
-    - Area Randomization
-    - Doors Colors Rando
-    - Boss Randomization
-    - Randomize the escape sequence
-    - Nerfed Charge
-    - Gravity Behaviour
-    - Endgame behavior with Tourian
-    - Custom objectives
-    - Custom objective count
 Terraria:
     - Terraria
     - Locations
     - Name
-    - Calamity Mod Integration
     - Goal
     - Early Pre-Hardmode Achievements
     - Normal Achievements
@@ -2073,7 +2394,6 @@ The Witness:
     - Vague Hints
     - Area Hint Percentage
     - Laser Hints
-    - Easter Egg Hunt
 Timespinner:
     - Timespinner
     - Locations
@@ -2099,6 +2419,18 @@ Timespinner:
     - Gate Keep
     - Royal Roadblock
     - Pure Torcher
+Tony Hawk's Pro Skater 1 + 2:
+    - Tony Hawk's Pro Skater 1 + 2
+    - Locations
+    - Name
+    - Goal
+    - Skater Count
+    - Level Count
+    - Include Signature Specials
+    - Include Long Tricks
+    - Include Gaps
+    - Gap Count Per Level
+    - Trap Percentage
 TUNIC:
     - TUNIC
     - Locations
@@ -2219,13 +2551,3 @@ Zillion:
     - start character
     - skill
     - map generation
-Zork Grand Inquisitor:
-    - Zork Grand Inquisitor
-    - Locations
-    - Name
-    - Goal
-    - Starting Location
-    - Hotspots
-    - Deathsanity
-    - Landmarksanity
-    - Entrance Randomizer

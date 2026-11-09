@@ -20,14 +20,13 @@ Pokemon Crystal:
     # Unown Hunt: Catch all 26 Unown forms that are attached to signs across the region(s) and show the completed Unown dex
     #  to the scientist in Ruins of Alph. In order to encounter the Unown you'll need to solve their corresponding tile puzzle.
     #  Each puzzle requires 16 pieces which must be found first.
-    elite_four: 4
-    red: 3
-    diploma: 1
-    rival: 3
-    defeat_team_rocket: 3
-    unown_hunt: 2
-    # Diploma Hunt is very long; Unown Hunt is second longest; Elite four is the default goal and is the most common at 25% with diploma having a chance of 6%
-
+    elite_four: 3
+    red: 4
+    diploma: 3
+    rival: 1
+    defeat_team_rocket: 1
+    unown_hunt: 3
+    
   #######
   # Map #
   #######
@@ -678,7 +677,7 @@ Pokemon Crystal:
     # If this option is enabled, you will be able to Fly before being forced to use an item to progress
     # Early Fly is a best effort setting, if Fly and its badge cannot be placed early, then they will be placed
     #     randomly
-    'false': 0
+    'false': 50
     'true': 50
 
   fly_cheese:
@@ -1125,9 +1124,9 @@ Pokemon Crystal:
     random: 0
     random-high: 0 # random value weighted towards higher values
     random-range-0-251: 0 # random value between 0 and 251
-    none: 75 # equivalent to 0
-    random-low: 20
-    full: 5
+    none: 50 # equivalent to 0
+    random-low: 40
+    full: 10
 
   dexcountsanity: # palnote: this will be just confusing for newcomers so I'm leaving it off.
     # Adds checks for completing Pokedex milestones
@@ -1199,9 +1198,9 @@ Pokemon Crystal:
     random: 0
     random-high: 0 # random value weighted towards higher values
     random-range-0-242: 0 # random value between 0 and 242
-    none: 75 # equivalent to 0
-    random-low: 20
-    full: 5
+    none: 50 # equivalent to 0
+    random-low: 40
+    full: 10
 
   kanto_trainersanity:
     # Adds checks for defeating Kanto trainers.
@@ -1216,9 +1215,9 @@ Pokemon Crystal:
     random: 0
     random-high: 0 # random value weighted towards higher values
     random-range-0-131: 0 # random value between 0 and 131
-    none: 75 # equivalent to 0
-    random-low: 20
-    full: 5
+    none: 50 # equivalent to 0
+    random-low: 40
+    full: 10
 
   #################
   # Pokemon Logic #
@@ -1653,19 +1652,33 @@ Pokemon Crystal:
     mild: 9
     wild: 1 # palnote: mercy.
 
+  local_items: [Aerodactyl Tile, Ho-Oh Tile, Kabuto Tile, Omanyte Tile]
 
   ## TRIGGERS
   coffee:
     none: 1
     all: 2
     some: 3
-    
+
   scawwy_caves:
     none: 1
     all: 1
     vanilla: 2
     some: 3
-    
+
+  shopsanity_marts:
+    true: 80
+    false: 20
+  shopsanity_apricorns:
+    true: 60
+    false: 40
+  shopsanity_blue_card:
+    true: 60
+    false: 40
+  shopsanity_game_corners:
+    true: 30
+    false: 70
+
   triggers:
     - option_category: Pokemon Crystal
       option_name: coffee
@@ -1685,6 +1698,7 @@ Pokemon Crystal:
       options:
         Pokemon Crystal:
           saffron_gatehouse_tea: ["_Random"]
+
     - option_category: Pokemon Crystal
       option_name: scawwy_caves
       option_result: some
@@ -1703,6 +1717,37 @@ Pokemon Crystal:
       options:
         Pokemon Crystal:
           dark_areas: []
+
+    - option_category: Pokemon Crystal
+      option_name: shopsanity_marts
+      option_result: true
+      options:
+        Pokemon Crystal:
+          +shopsanity:
+            - Johto Marts
+            - Kanto Marts
+    - option_category: Pokemon Crystal
+      option_name: shopsanity_apricorns
+      option_result: true
+      options:
+        Pokemon Crystal:
+          +shopsanity:
+            - Apricorns
+    - option_category: Pokemon Crystal
+      option_name: shopsanity_blue_card
+      option_result: true
+      options:
+        Pokemon Crystal:
+          +shopsanity:
+            - Blue Card
+    - option_category: Pokemon Crystal
+      option_name: shopsanity_game_corners
+      option_result: true
+      options:
+        Pokemon Crystal:
+          +shopsanity:
+            - Game Corners
+
     - option_category: null
       option_name: name
       option_result: Player{player}
